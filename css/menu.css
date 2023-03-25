@@ -9,9 +9,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 11px;
 }
 nav{
     padding: 10px;
+}
+.nome{
+    font-size: 1.25rem;
+}
+.sair{
+    font-size: 2.25rem;
 }
 
 
@@ -21,4 +28,23 @@ nav{
         width: 50px;
         height: 65px;
     }
+    .sair{
+        font-size: 2rem;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .logo img {
+        width: 40px;
+        height: 55px;
+    }
+    .nome{
+        font-size: 1.13rem;
+    }
+    .sair{
+        font-size: 1.25rem;
+    }
+
 }
