@@ -1,24 +1,38 @@
-.home{
+.home {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 11px;
 }
-nav{
+
+nav {
     padding: 10px;
 }
-.nome{
+
+.nome {
     font-size: 1.25rem;
+    color: #fff;
 }
-.sair{
+
+.sair {
     font-size: 2.25rem;
+    color: #fff;
+}
+
+.sair :hover {
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
 }
 
 
@@ -28,10 +42,11 @@ nav{
         width: 50px;
         height: 65px;
     }
-    .sair{
+
+    .sair {
         font-size: 2rem;
     }
-    
+
 }
 
 @media (max-width: 600px) {
@@ -40,10 +55,12 @@ nav{
         width: 40px;
         height: 55px;
     }
-    .nome{
+
+    .nome {
         font-size: 1.13rem;
     }
-    .sair{
+
+    .sair {
         font-size: 1.25rem;
     }
 

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/30058942d9.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js" defer type="module"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/menu.css">
@@ -13,6 +16,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <title>Lion School</title>
 </head>
+
 <body>
     <header>
         <nav class="home">
@@ -22,30 +26,42 @@
                     Lion <br> School
                 </div>
             </div>
-            <a href="#" class="sair">
-                <i class="fas fa-running"></i>
-                Sair
-            </a>
+            <div class="sair">
+                <a href="#">
+                    <i class="fas fa-running"></i>
+                    <span>Sair</span> 
+                </a>
+            </div>
         </nav>
-            
-        
+
+
     </header>
     <main>
         <section class="section-main">
             <div class="escolha-curso">
                 <p>
-                    Escolha um <span>curso</span>  para gerenciar
+                    Escolha um <span>curso</span> para gerenciar
                 </p>
                 <img src="../img/devices.png" alt="" class="responsive">
             </div>
             <div class="image-estudante">
                 <img src="../img/studant.png" alt="Imagem de um aluno" class="estudante">
             </div>
-            <div class="cardsJSON" id="card">
-                <a href="#" class="card">
-                    
-                </a>
-                
+            <div class="cardsJSON" id="cardsJSON">
+                <!-- <div class="card">
+                    <img src="../img/logo-image.png" alt="">
+                    <h2>DS</h2>
+                </div>
+                <div class="card">
+                    <img src="../img/logo-image.png" alt="">
+                    <h2>DS</h2>
+                </div>
+                <div class="card">
+                    <img src="../img/logo-image.png" alt="">
+                    <h2>DS</h2>
+                </div> -->
+            </div>
+
             </div>
         </section>
     </main>
@@ -58,7 +74,7 @@
                 </p>
             </li>
             <li class="container-icon">
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa fa-envelope"></i>
                 <p class="text-email">
                     lionschool@gmail.com
                 </p>
@@ -66,7 +82,7 @@
             <li class="container-icon">
                 <i class="fa-solid fa-location-dot"></i>
                 <p class="text-local">
-                    Rua tcc, 211,  Centro, Jandira
+                    Rua tcc, 211, Centro, Jandira
                 </p>
             </li>
         </ul>
@@ -74,22 +90,25 @@
             Copyright © 2023 | Claudio Sousa e Millena Ferreira
         </p>
         <div class="container-social">
-            <div class="container-icon-social">
-                <i class="fa-brands fa-youtube"></i>
+            <div class="social-links">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-rss"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                </a>
             </div>
-            <div class="container-icon-social">
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div class="container-icon-social">
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-            <div class="container-icon-social">
-                <i class="fa-brands fa-facebook"></i>
-            </div>  
         </div>
         <p class="copyright2">
             Copyright © 2023 | Claudio Sousa e Millena Ferreira
         </p>
     </footer>
 </body>
+
 </html>
