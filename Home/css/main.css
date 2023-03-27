@@ -41,10 +41,10 @@
     background-color: #4a69ff;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1024px) {
     .responsive {
-        width: 350px;
-        height: 210px;
+        width: 120%;
+        height: 100%;
     }
 
     .estudante {
@@ -53,9 +53,11 @@
     }
 
     .escolha-curso {
-        font-size: 3rem;
+        font-size: 2.4rem;
         padding: 0 1.5vw;
+        text-align: center;
     }
+    
 
     .cardsJSON {
         display: grid;
@@ -75,13 +77,8 @@
         flex-direction: column;
         align-items: center;
         padding: 2vh 4vh;
-        font-size: 2.4rem;
         gap: 3vh;
         line-height: 3rem;
-    }
-
-    .escolha-curso p {
-        text-align: center;
     }
 
     .responsive {

@@ -10,11 +10,6 @@ const criarCard = (contato, indice) => {
     const card = document.createElement('div')
     card.classList.add('card');
 
-    // card.addEventListener('click', (event) => {
-    //     var card = document.getElementById('cardsJSON');
-    //     card.replaceChildren(criarCard(indice))
-    // })
-
     const imagem = document.createElement('img')
     imagem.classList.add('img-card')
     imagem.src = `${contato.icone}`
@@ -22,6 +17,10 @@ const criarCard = (contato, indice) => {
     const sigla = document.createElement('h2')
     sigla.classList.add('nomeCurso')
     sigla.textContent = contato.sigla
+
+    card.addEventListener('click', () => {
+        localStorage.setItem('curso', sigla.textContent)
+    })
 
     card.append(imagem, sigla)
 

@@ -13,6 +13,7 @@ header{
 main{
     display: flex;
     height: 100vh;
+    width: auto;
 }
 footer{
     display: flex;
@@ -24,9 +25,17 @@ footer{
     padding: 0 96px;
 }
 
+@media (max-width: 999px) {
+    
+}
+
 @media (max-width: 600px) {
     header{
         padding-left: 7vw;
         padding-right: 7vw;
+    }
+    main{
+        height: auto;
+        margin-bottom: 3vh;
     }
 }

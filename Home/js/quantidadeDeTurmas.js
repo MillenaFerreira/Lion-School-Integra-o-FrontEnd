@@ -1,6 +1,6 @@
 export const contatos = [
     {
-        "sigla": "RS",
+        "sigla": "RDS",
         "icone":  "https://img.icons8.com/ultraviolet/344/thin-client.png"
     },
     {
