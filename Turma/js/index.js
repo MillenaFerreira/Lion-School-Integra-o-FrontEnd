@@ -7,34 +7,39 @@ console.log('entrei');
 const curso = localStorage.getItem('curso')
 console.log(curso);
 
-const criarCard = (contato, indice) => {
+const criarCard = (aluno) => {
     console.log('uiui');
-
-    // if (contato.curso == curso) {
-        
-    // }
-
 
     const card = document.createElement('div')
     card.classList.add('card');
 
-    if(contato.status == 'Cursando'){
+    if (aluno.status == 'Cursando') {
         card.classList.add('card-cursando')
-    }else {
+    } else {
         card.classList.add('card-finalizado')
     }
 
     const foto = document.createElement('img')
     foto.classList.add('img-card')
-    foto.src = `${contato.foto}`
+    foto.src = `${aluno.foto}`
 
     const nome = document.createElement('h2')
     nome.classList.add('nomeCurso')
-    nome.textContent = contato.nome
+    nome.textContent = aluno.nome
+
+    const matricula = document.createElement('span')
+    matricula.textContent = aluno.matricula
+    console.log(matricula);
 
     card.append(foto, nome)
 
+    card.addEventListener('click', () => {
+        localStorage.setItem('matricula', matricula.textContent)
+    })
+
     return card
+
+
 }
 
 const carregarCard = () => {

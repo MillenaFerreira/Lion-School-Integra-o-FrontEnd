@@ -48,46 +48,6 @@ export const alunos =
             "sexo": "F",
             "curso": "RDS",
             "status": "Finalizado"
-        },
-        {
-            "foto": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
-            "nome": "Heloisa Santos Araujo",
-            "matricula": "20151001017",
-            "sexo": "F",
-            "curso": "DS",
-            "status": "Finalizado"
-        },
-        {
-            "foto": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
-            "nome": "Ingrid Paloma da Costa Porto",
-            "matricula": "20151001018",
-            "sexo": "F",
-            "curso": "DS",
-            "status": "Finalizado"
-        },
-        {
-            "foto": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-4-avatar-2754580_120522.png",
-            "nome": "HÉLIDA BENTO DE OLIVEIRA LINS",
-            "matricula": "20151001016",
-            "sexo": "F",
-            "curso": "DS",
-            "status": "Cursando"
-        },
-        {
-            "foto": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png",
-            "nome": "Isaasc de Sousa Araújo",
-            "matricula": "20151001019",
-            "sexo": "M",
-            "curso": "DS",
-            "status": "Cursando"
-        },
-        {
-            "foto": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-8-avatar-2754583_120515.png",
-            "nome": "José Matheus da Silva Miranda",
-            "matricula": "20151001024",
-            "sexo": "M",
-            "curso": "DS",
-            "status": "Cursando"
         }
     ]
 }

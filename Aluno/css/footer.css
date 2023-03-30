@@ -2,23 +2,23 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    justify-content: space-around;
+    color: #fff;
 }
 .container-icon{
     display: flex;
     gap: 24px;
-    color: #fff;
-
     font-weight: 400;
     align-items: center;
 }
 .container-icon i{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 .copyright{
     font-size: 1.2rem;
     font-weight: 400;
-    color: #fff;
     text-align: center;
+    color: #fff;
 }
 .social-links{
     display: flex;
@@ -55,10 +55,11 @@
 
 @media (max-width:640px){
     footer{
+        display: flex;
         flex-direction: column;
         height: auto;
         padding: 32px;
-        gap: 32px;
+        gap: 6vh;
     }
     .copyright{
         display: none;
@@ -66,5 +67,6 @@
     .copyright2{
         display: block;
         color: #fff;
+        text-align: center;
     }
 }
