@@ -1,12 +1,11 @@
 'use strict'
 
-import { matriculaAluno } from "../js/matriculaAluno.js"
+//import { matriculaAluno } from "../js/matriculaAluno.js"
+import { getMatricula } from '../js/main.js'
 
 console.log('entrei');
+const matriculaAluno = await getMatricula()
 
-
-const matriculaTurma = localStorage.getItem('matricula');
-console.log(matriculaTurma);
 
 const criarCardAluno = (matricula) => {
     console.log('uiiui');

@@ -1,26 +1,23 @@
 'use strict'
 
-import { alunos } from "../js/alunos.js"
-//import { getFitragem } from "../js/main.js"
+//import { alunos } from "../js/alunos.js"
+import { getFitragem } from "../js/main.js"
 
-//const alunos = await getFitragem()
+const alunos = await getFitragem()
 
 const criarTitulo = (aluno) => {
 
-    const pai = document.getElementById('container-direito') 
-    
-    const titulo = document.createElement('div')
-    titulo.classList.add('titulo')
+    const pai = document.getElementById('titulo') 
 
     const nomeTitulo = document.createElement('h2')
     nomeTitulo.classList.add()
     nomeTitulo.textContent = aluno.NomeCurso
-    console.log(aluno.NomeCurso);
+    // console.log(aluno.NomeCurso);
 
-    pai.append(titulo)
-    titulo.append(nomeTitulo)
+    pai.append(nomeTitulo)
+    
 
-    return pai
+    
 }
 
 
@@ -28,8 +25,9 @@ const criarCard = (aluno) => {
     console.log('uiui');
 
 
-    const card = document.createElement('div')
+    const card = document.createElement('a')
     card.classList.add('card');
+    card.href = "../../Aluno/html/index.html"
 
     if (aluno.status == 'Cursando') {
         card.classList.add('card-cursando')
@@ -63,7 +61,9 @@ const criarCard = (aluno) => {
 const carregarCard = () => {
     const card = document.getElementById('cardsJSON')
     const cardsJSON = alunos.aluno.map(criarCard)
+
     card.replaceChildren(...cardsJSON)
 }
 
+criarTitulo(alunos)
 carregarCard()
