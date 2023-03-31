@@ -8,7 +8,7 @@ console.log('entrei');
 const matriculaTurma = localStorage.getItem('matricula');
 console.log(matriculaTurma);
 
-const criarCardAluno = () =>{
+const criarCardAluno = (matricula) => {
     console.log('uiiui');
 
     const cardAluno = document.createElement('div')
@@ -16,18 +16,18 @@ const criarCardAluno = () =>{
 
     const imgAluno = document.createElement('img')
     imgAluno.classList.add('img-aluno')
-    imgAluno.src = matriculaAluno.aluno.foto
+    imgAluno.src = matricula.aluno.foto
 
     const nomeAluno = document.createElement('p')
     nomeAluno.classList.add('name-aluno')
-    nomeAluno.textContent = matriculaAluno.aluno.nome
+    nomeAluno.textContent = matricula.aluno.nome
 
     cardAluno.append(imgAluno, nomeAluno)
 
     return cardAluno
 }
-const criarCardGrafico = () =>{
-    console.log('=fdbkondfb');
+const criarCardGrafico = () => {
+    console.log('entrei rapaz');
 
     const cardGrafico = document.createElement('div')
     cardGrafico.classList.add('container-grafico')
@@ -35,38 +35,57 @@ const criarCardGrafico = () =>{
     const numeros = document.createElement('div')
     numeros.classList.add('numeros')
 
-    matriculaAluno.aluno.curso[0].disciplinas.forEach(disciplina => {
-        const numerosGrafico = document.createElement('span')
-        numerosGrafico.classList.add()
-        numerosGrafico.textContent = disciplina.media
-        numeros.append(numerosGrafico)
-        
-    })
-
     const chart = document.createElement('div')
     chart.classList.add('chart')
 
-    const preenchimento = document.createElement('div')
-    preenchimento.classList.add('preenchimento')
+    const nomesDisciplinas = document.createElement('div')
+    nomesDisciplinas.classList.add('nomes')
 
-    const valor = document.createElement('div')
-    valor.classList.add('bar')
+    matriculaAluno.aluno.curso[0].disciplinas.forEach(disciplina => {
+
+        // numeros do grafico
+        const numerosGrafico = document.createElement('span')
+        numerosGrafico.classList.add()
+        numerosGrafico.textContent = disciplina.media
+
+        numeros.append(numerosGrafico)
+
+        //valores do grafico
+        const preenchimento = document.createElement('div')
+        preenchimento.classList.add('preenchimento')
+
+        const valor = document.createElement('div')
+        valor.classList.add('bar')
+        //valor.textContent = numerosGrafico 
+
+        setTimeout(() => {
+            valor.style.height = disciplina.media + '%'
+        }, 100);
+
+        chart.append(preenchimento)
+        preenchimento.append(valor)
+
+        //sigla de todas as materias
+        const nomesGrafico = document.createElement('span')
+        nomesGrafico.classList.add()
+        nomesGrafico.textContent = disciplina.sigla
+
+        nomesDisciplinas.append(nomesGrafico)
+        
+    })
 
     cardGrafico.append(numeros)
-    
-
-    chart.append(preenchimento)
-    preenchimento.append(valor)
-    
+    cardGrafico.append(chart)
+    cardGrafico.append(nomesDisciplinas)
 
     return cardGrafico
 }
 
 const carregarCard = () => {
     const cardsAlunos = document.getElementById('container-aluno-grafico')
-    const container = criarCardAluno(matriculaAluno)
-    const containera = criarCardGrafico(matriculaAluno)
-    cardsAlunos.append(container, containera)
+    const containerAluno = criarCardAluno(matriculaAluno)
+    const containerGrafico = criarCardGrafico(matriculaAluno)
+    cardsAlunos.append(containerAluno, containerGrafico)
 }
 
 carregarCard()

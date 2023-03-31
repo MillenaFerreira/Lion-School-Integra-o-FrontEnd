@@ -16,37 +16,43 @@ export const matriculaAluno = {
                         "nome": "Sistemas Operacionais",
                         "carga": "75",
                         "media": "80",
-                        "status": "Aprovado"
+                        "status": "Aprovado",
+                        "sigla": "SO"
                     },
                     {
                         "nome": "Introdução a Redes",
                         "carga": "75",
                         "media": "93",
-                        "status": "Aprovado"
+                        "status": "Aprovado",
+                        "sigla": "IAR"
                     },
                     {
                         "nome": "Introdução a Nuvem",
                         "carga": "120",
                         "media": "68",
-                        "status": "Exame"
+                        "status": "Exame",
+                        "sigla": "IAN"
                     },
                     {
                         "nome": "Hardware",
                         "carga": "75",
                         "media": "74",
-                        "status": "Aprovado"
+                        "status": "Aprovado",
+                        "sigla": "H"
                     },
                     {
                         "nome": "Servições de Redes",
                         "carga": "240",
                         "media": "85",
-                        "status": "Aprovado"
+                        "status": "Aprovado",
+                        "sigla": "SDR"
                     },
                     {
                         "nome": "Cabeamento Estruturado",
                         "carga": "150",
                         "media": "59",
-                        "status": "Exame"
+                        "status": "Exame",
+                        "sigla": "CE"
                     }
                 ]
             }

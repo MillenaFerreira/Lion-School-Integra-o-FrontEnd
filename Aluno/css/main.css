@@ -108,8 +108,8 @@
     .container-grafico {
         width: 250px;
         height: 350px;
-        padding: 15px;
-        gap: 20px;
+        padding: 20px;
+        gap: 5px;
     }
     .chart{
         padding-right: 4px;

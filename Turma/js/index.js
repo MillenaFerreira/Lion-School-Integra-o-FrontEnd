@@ -1,14 +1,32 @@
 'use strict'
 
 import { alunos } from "../js/alunos.js"
+//import { getFitragem } from "../js/main.js"
 
-console.log('entrei');
+//const alunos = await getFitragem()
 
-const curso = localStorage.getItem('curso')
-console.log(curso);
+const criarTitulo = (aluno) => {
+
+    const pai = document.getElementById('container-direito') 
+    
+    const titulo = document.createElement('div')
+    titulo.classList.add('titulo')
+
+    const nomeTitulo = document.createElement('h2')
+    nomeTitulo.classList.add()
+    nomeTitulo.textContent = aluno.NomeCurso
+    console.log(aluno.NomeCurso);
+
+    pai.append(titulo)
+    titulo.append(nomeTitulo)
+
+    return pai
+}
+
 
 const criarCard = (aluno) => {
     console.log('uiui');
+
 
     const card = document.createElement('div')
     card.classList.add('card');
@@ -29,9 +47,10 @@ const criarCard = (aluno) => {
 
     const matricula = document.createElement('span')
     matricula.textContent = aluno.matricula
-    console.log(matricula);
 
+    
     card.append(foto, nome)
+
 
     card.addEventListener('click', () => {
         localStorage.setItem('matricula', matricula.textContent)
@@ -39,12 +58,11 @@ const criarCard = (aluno) => {
 
     return card
 
-
 }
 
 const carregarCard = () => {
     const card = document.getElementById('cardsJSON')
-    const cardsJSON = alunos.alunos.map(criarCard)
+    const cardsJSON = alunos.aluno.map(criarCard)
     card.replaceChildren(...cardsJSON)
 }
 

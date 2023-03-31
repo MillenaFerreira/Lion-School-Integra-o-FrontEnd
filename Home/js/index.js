@@ -1,14 +1,17 @@
 'use strict'
 
-import { contatos } from "../js/quantidadeDeTurmas.js";
+//import { contatos } from "../js/quantidadeDeTurmas.js";
+import { getDadosCurso } from "../js/main.js"
 
+const contatos = await getDadosCurso()
 console.log('entrei');
 
-const criarCard = (contato, indice) => {
+const criarCard =  (contato) => {
     console.log('uiui');
 
-    const card = document.createElement('div')
+    const card = document.createElement('a')
     card.classList.add('card');
+    card.href = '../../Turma/html/index.html'
 
     const imagem = document.createElement('img')
     imagem.classList.add('img-card')
@@ -20,6 +23,7 @@ const criarCard = (contato, indice) => {
 
     card.addEventListener('click', () => {
         localStorage.setItem('curso', sigla.textContent)
+        console.log('cliquei');
     })
 
     card.append(imagem, sigla)
@@ -29,7 +33,7 @@ const criarCard = (contato, indice) => {
 
 const carregarCard = () => {
     const card = document.getElementById('cardsJSON')
-    const cardsJSON = contatos.map(criarCard)
+    const cardsJSON = contatos.cursos.map(criarCard)
     card.replaceChildren(...cardsJSON)
 }
 
