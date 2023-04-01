@@ -55,11 +55,18 @@ const criarCardGrafico = () => {
 
         const valor = document.createElement('div')
         valor.classList.add('bar')
+        
         //valor.textContent = numerosGrafico 
 
         setTimeout(() => {
             valor.style.height = disciplina.media + '%'
         }, 100);
+
+        if (disciplina.media < 50) {
+            valor.classList.add('barra-vermelho')
+        } else if (disciplina.media >= 50 && disciplina.media <= 70) {
+            valor.classList.add('barra-amarelo')
+        } 
 
         chart.append(preenchimento)
         preenchimento.append(valor)
@@ -70,7 +77,15 @@ const criarCardGrafico = () => {
         nomesGrafico.textContent = disciplina.sigla
 
         nomesDisciplinas.append(nomesGrafico)
-        
+
+        if (disciplina.media < 50) {
+            numerosGrafico.classList.add('numeroNome-Vermelho')
+            nomesGrafico.classList.add('numeroNome-Vermelho')
+        } else if (disciplina.media >= 50 && disciplina.media <= 70) {
+            numerosGrafico.classList.add('numeroNome-Amarelo')
+            nomesGrafico.classList.add('numeroNome-Amarelo')
+        } 
+
     })
 
     cardGrafico.append(numeros)

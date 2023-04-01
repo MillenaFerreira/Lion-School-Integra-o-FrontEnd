@@ -23,18 +23,16 @@ nav {
 }
 
 .sair {
-    font-size: 2.25rem;
-    color: #fff;
-}
-
-.sair :hover {
-    background-color: black;
-    background-image: url("");
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/fechar-as-portas.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover
 }
 
+.imagem-sair {
+    background-image: url(../img/sair.png);
+    background-repeat: no-repeat;
+}
 
 
 @media (max-width: 999px) {
@@ -42,11 +40,6 @@ nav {
         width: 50px;
         height: 65px;
     }
-
-    .sair {
-        font-size: 2rem;
-    }
-
 }
 
 @media (max-width: 600px) {
@@ -58,10 +51,6 @@ nav {
 
     .nome {
         font-size: 1.13rem;
-    }
-
-    .sair {
-        font-size: 1.25rem;
     }
 
 }

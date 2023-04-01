@@ -23,10 +23,17 @@ footer{
     justify-content: space-between;
     padding: 0 96px;
 }
+@media (max-width: 999px) {
+    main{
+        height: auto;
+    }
+}
+
 
 @media (max-width: 600px) {
     header{
         padding-left: 7vw;
         padding-right: 7vw;
     }
+    
 }

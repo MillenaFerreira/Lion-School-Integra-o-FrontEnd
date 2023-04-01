@@ -26,7 +26,10 @@ footer{
 }
 
 @media (max-width: 999px) {
-    
+    footer{
+        padding: 0 50px;
+        gap: 20px;
+    }
 }
 
 @media (max-width: 600px) {

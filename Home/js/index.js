@@ -4,10 +4,8 @@
 import { getDadosCurso } from "../js/main.js"
 
 const contatos = await getDadosCurso()
-console.log('entrei');
 
 const criarCard =  (contato) => {
-    console.log('uiui');
 
     const card = document.createElement('a')
     card.classList.add('card');
@@ -23,13 +21,22 @@ const criarCard =  (contato) => {
 
     card.addEventListener('click', () => {
         localStorage.setItem('curso', sigla.textContent)
-        console.log('cliquei');
     })
 
     card.append(imagem, sigla)
 
     return card
 }
+
+const imagem = document.querySelector('.sair')
+
+imagem.addEventListener('mouseover', function(){
+    imagem.classList.add('imagem-sair')
+})
+imagem.addEventListener('mouseout', function(){
+    imagem.classList.add('sair')
+    imagem.classList.remove('imagem-sair')
+})
 
 const carregarCard = () => {
     const card = document.getElementById('cardsJSON')
