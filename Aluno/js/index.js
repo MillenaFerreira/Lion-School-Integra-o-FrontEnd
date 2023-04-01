@@ -55,8 +55,22 @@ const criarCardGrafico = () => {
 
         const valor = document.createElement('div')
         valor.classList.add('bar')
-        
-        //valor.textContent = numerosGrafico 
+        //valor.setAttribute('title', disciplina.sigla);
+
+        const tooltipText = document.createElement('span');
+        tooltipText.classList.add('tooltip-text');
+        tooltipText.textContent = disciplina.sigla;
+        tooltipText.setAttribute('title', disciplina.sigla);
+
+        valor.appendChild(tooltipText);
+
+        valor.addEventListener('mouseover', function() {
+            tooltipText.style.display = 'inline-block';
+          });
+          
+          valor.addEventListener('mouseout', function() {
+            tooltipText.style.display = 'none';
+          });
 
         setTimeout(() => {
             valor.style.height = disciplina.media + '%'
@@ -66,7 +80,7 @@ const criarCardGrafico = () => {
             valor.classList.add('barra-vermelho')
         } else if (disciplina.media >= 50 && disciplina.media <= 70) {
             valor.classList.add('barra-amarelo')
-        } 
+        }
 
         chart.append(preenchimento)
         preenchimento.append(valor)
@@ -84,7 +98,7 @@ const criarCardGrafico = () => {
         } else if (disciplina.media >= 50 && disciplina.media <= 70) {
             numerosGrafico.classList.add('numeroNome-Amarelo')
             nomesGrafico.classList.add('numeroNome-Amarelo')
-        } 
+        }
 
     })
 
