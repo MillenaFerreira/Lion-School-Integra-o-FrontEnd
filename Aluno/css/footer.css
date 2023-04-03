@@ -52,6 +52,12 @@
 .copyright2{
     display: none;
 }
+@media (max-width:999px){
+    footer{
+        padding: 0 40px;
+        gap : 20px
+    }
+}
 
 @media (max-width:640px){
     footer{

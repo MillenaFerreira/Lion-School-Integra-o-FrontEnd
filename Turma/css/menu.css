@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .logo {
     display: flex;
     flex-direction: row;
@@ -12,56 +11,37 @@
     align-items: center;
     gap: 11px;
 }
-
 nav {
     padding: 10px;
 }
-
 .nome {
     font-size: 1.25rem;
     color: #fff;
 }
-
 .voltar {
     font-size: 1.5rem;
     color: #fff;
 }
-
-.voltar :hover {
-    background-color: black;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover
-}
-
-
 
 @media (max-width: 999px) {
     .logo img {
         width: 50px;
         height: 65px;
     }
-
     .voltar {
         font-size: 2rem;
     }
-
 }
 
 @media (max-width: 600px) {
-
     .logo img {
         width: 40px;
         height: 55px;
     }
-
     .nome {
         font-size: 1.13rem;
     }
-
     .voltar {
         font-size: 1.25rem;
     }
-
 }

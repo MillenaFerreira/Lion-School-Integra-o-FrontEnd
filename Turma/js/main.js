@@ -3,9 +3,6 @@
 const curso = localStorage.getItem('curso')
 console.log(curso);
 
-const idDoBotaoClicado = localStorage.getItem('idClicado')
-console.log(idDoBotaoClicado);
-
 export const getFitragemCurso = async () => {
     
     const url = `http://localhost:8080/v1/lion-school/alunos?curso=${curso}`
@@ -15,11 +12,11 @@ export const getFitragemCurso = async () => {
     return dado
 }
 
-export const getFitragemStatus = async () => {
+export const getFitragemStatus = async (idDoBotaoClicado) => {
     
     const url = `http://localhost:8080/v1/lion-school/alunos?curso=${curso}&status=${idDoBotaoClicado}`
     const response = await fetch(url)
     const dado = await response.json()
-    console.log(dado);
+    //console.log(dado);
     return dado
 }
