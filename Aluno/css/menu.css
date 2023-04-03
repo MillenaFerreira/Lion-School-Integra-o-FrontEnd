@@ -22,18 +22,11 @@ nav {
     color: #fff;
 }
 
-.sair {
+.voltar {
     font-size: 2.25rem;
     color: #fff;
 }
 
-.sair :hover {
-    background-color: black;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover
-}
 
 
 
@@ -43,7 +36,7 @@ nav {
         height: 65px;
     }
 
-    .sair {
+    .voltar {
         font-size: 2rem;
     }
 
@@ -60,7 +53,7 @@ nav {
         font-size: 1.13rem;
     }
 
-    .sair {
+    .voltar {
         font-size: 1.25rem;
     }
 
