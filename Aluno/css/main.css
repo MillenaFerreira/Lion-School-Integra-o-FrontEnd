@@ -82,7 +82,6 @@
 .chart {
     display: flex;
     justify-content: space-between;
-    padding-right: 6px;
 }
 
 .bar {
