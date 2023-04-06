@@ -49,26 +49,15 @@ const criarCard = (aluno) => {
 
 const CursandoEFinalizado =  () => {
 
-    // const status = document.getElementById('status')
-    // status.addEventListener('click', () =>{
-    //     criarCard()
-    // })
-
     const buttons = document.querySelectorAll('.card-');
 
     buttons.forEach(button => {
         button.addEventListener('click', async () => {
                       
             const idClicado = button.id;
-            //const retorna = await getFitragemStatus(idClicado)
-            //console.log(`teste: ${idClicado}`);
-            // localStorage.setItem('idClicado', idClicado)
-            //const clique = await getFitragemStatus(idClicado);
-            //criarCardFC(idClicado);
-            //console.log(x.target.id);
+
             if(button.id == "status"){
                carregarCard()
-
             }else{
                 const retorna = await getFitragemStatus(idClicado)
                 const cardJSON = retorna.aluno.map(criarCard);
@@ -88,6 +77,56 @@ const carregarCard = () => {
 
     card.replaceChildren(...cardsJSON)
 }
+
+//cria uma array que vai conter anos de conclusão daquele curso em especifico
+const pegarAnoConclusao = (alunos) => {
+    let anos = []
+
+    alunos.forEach(aluno => {
+        anos.push(aluno.curso[0].conclusao)
+    })
+
+    let anosNovo = anos.filter((este, i) => anos.indexOf(este) === i)
+    return anosNovo.sort()
+}
+
+//cria um json com todos os alunos daquele curso especifico
+const anos = pegarAnoConclusao(alunos.aluno);
+
+const anoNovo = async (ano) => {
+    const alunoJson = {}
+    const alunoArray = []
+    alunos.aluno.forEach(aluno => {
+        if(aluno.curso[0].conclusao == ano){
+            alunoArray.push(aluno)
+        }
+        
+    })
+    alunoJson.aluno = alunoArray
+    return alunoJson
+    
+}
+
+//cria as opções de ano do usuario e adiciona o evento de clique neles
+const criarAnos = (anos) => {
+    const pai = document.getElementById('dropdown-content')
+    anos.forEach(ano => {
+        const card = document.createElement('a')
+        card.id = `${ano}`
+        card.innerHTML = ano
+        card.addEventListener('click', async () => {
+            const retorna = await anoNovo(ano)
+            const cardJSON =  retorna.aluno.map(criarCard)
+            const card = document.getElementById('cardsJSON')
+                card.replaceChildren(...cardJSON)
+        })
+        pai.append(card)
+    })
+}
+
+
+
+criarAnos(anos)
 CursandoEFinalizado()
 criarTitulo(alunos)
 carregarCard()

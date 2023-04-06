@@ -49,9 +49,7 @@
 } */
 .tooltip-text {
     display: none;
-    position: absolute;
-    bottom: 400px;
-    width: 50px;
+    width: auto;
     height: 25px;
     transform: translateX(-50%);
     background-color: #333;
@@ -131,7 +129,7 @@
         gap: 5vh;
         padding: 3vh 0;
         overflow: hidden;
-    }
+    } 
 }
 
 @media (max-width:768px) {
@@ -166,8 +164,5 @@
 
     .numeros {
         font-size: 15px;
-    }
-    .tooltip-text {  
-        bottom: 5vh;
     }
 }

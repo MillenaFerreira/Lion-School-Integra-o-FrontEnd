@@ -12,6 +12,7 @@ const criarCardAluno = (matricula) => {
 
     const cardAluno = document.createElement('div')
     cardAluno.classList.add('container-aluno')
+    cardAluno.title
 
     const imgAluno = document.createElement('img')
     imgAluno.classList.add('img-aluno')
@@ -57,12 +58,12 @@ const criarCardGrafico = () => {
         valor.classList.add('bar')
         //valor.setAttribute('title', disciplina.sigla);
 
-        const tooltipText = document.createElement('span');
+        const tooltipText = document.createElement('title');
         tooltipText.classList.add('tooltip-text');
         tooltipText.textContent = disciplina.sigla;
         tooltipText.setAttribute('title', disciplina.sigla);
 
-        valor.appendChild(tooltipText);
+        valor.append(tooltipText);
 
         valor.addEventListener('mouseover', function() {
             tooltipText.style.display = 'inline-block';
