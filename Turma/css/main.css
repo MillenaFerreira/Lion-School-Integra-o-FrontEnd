@@ -78,7 +78,13 @@
     background-color: #E5B657;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
-
+/* .container-direito{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 32px;
+    gap: 64px;
+} */
 
 .cards {
     width: 100%;
@@ -89,6 +95,9 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 7vh;
     place-items: center;
+    /* display: flex;
+    gap: 64px;
+    justify-content: center; */
 }
 
 .card {

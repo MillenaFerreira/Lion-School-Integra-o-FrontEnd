@@ -1,11 +1,16 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
 header{
     background-color: #3347B0;
     padding-left: 10vw;
     padding-right: 10vw;
 }
 main{
-    height: auto;
+    height: 100%;
     width: auto;
 }
 footer{

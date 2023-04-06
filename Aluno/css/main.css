@@ -168,4 +168,7 @@
     .numeros {
         font-size: 15px;
     }
+    .tooltip-text {  
+        bottom: 5vh;
+    }
 }
