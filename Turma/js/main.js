@@ -5,7 +5,7 @@ console.log(curso);
 
 export const getFitragemCurso = async () => {
     
-    const url = `http://localhost:8080/v1/lion-school/alunos?curso=${curso}`
+    const url = `https://tired-slug-hat.cyclic.app/v1/lion-school/alunos?curso=${curso}`
     const response = await fetch(url)
     const dado = await response.json()
     
@@ -14,7 +14,7 @@ export const getFitragemCurso = async () => {
 
 export const getFitragemStatus = async (idDoBotaoClicado) => {
     
-    const url = `http://localhost:8080/v1/lion-school/alunos?curso=${curso}&status=${idDoBotaoClicado}`
+    const url = `https://tired-slug-hat.cyclic.app/v1/lion-school/alunos?curso=${curso}&status=${idDoBotaoClicado}`
     const response = await fetch(url)
     const dado = await response.json()
     //console.log(dado);
