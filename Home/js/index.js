@@ -42,7 +42,11 @@ imagem.addEventListener('click', function(){
 })
 
 function closeWindow() {
-    let new_window =
+    //A função closeWindow()abre uma nova página da web na mesma janela atual e, em seguida, fecha a janela atual.
+    //open() = para abrir uma nova página na mesma janela 
+    //close() = para fechar a janela atual. 
+    //return false é usada para impedir que a página seja recarregada.
+    const new_window =
         open(location, '_self');
     new_window.close();
     return false;
