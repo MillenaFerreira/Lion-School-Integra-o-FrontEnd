@@ -36,6 +36,8 @@ imagem.addEventListener('mouseover', function(){
 imagem.addEventListener('mouseout', function(){
     imagem.classList.add('sair')
     imagem.classList.remove('imagem-sair')
+})
+imagem.addEventListener('click', function(){
     closeWindow()
 })
 
