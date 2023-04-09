@@ -38,7 +38,6 @@
     align-items: center;
     cursor: pointer
 }
-
 .social-links a:hover {
     background: #062fff;
 }
@@ -47,28 +46,15 @@
     width: 18px;
     height: 18px
 }
-
-
 .copyright2{
     display: none;
 }
-
 @media (max-width:999px){
-    footer{
-        padding: 0 40px;
-        gap : 20px
+    .copyright{
+        font-size: 1rem;
     }
 }
-
 @media (max-width:640px){
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        padding: 32px;
-        gap: 6vh;
-    }
     .copyright{
         display: none;
     }

@@ -22,6 +22,10 @@ nav {
     font-size: 1.5rem;
     color: #fff;
 }
+.voltar:hover{
+    transform: scale(1.2);
+    transition: 0.25s;
+}
 
 @media (max-width: 999px) {
     .logo img {

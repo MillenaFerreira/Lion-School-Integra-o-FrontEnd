@@ -33,7 +33,7 @@ const criarCard = (aluno) => {
 
     const nome = document.createElement('h2')
     nome.classList.add('nomeCurso')
-    nome.textContent = aluno.nome
+    nome.textContent = aluno.nome.toUpperCase()
 
     const matricula = document.createElement('span')
     matricula.textContent = aluno.matricula
