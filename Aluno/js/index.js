@@ -56,22 +56,22 @@ const criarCardGrafico = () => {
 
         const valor = document.createElement('div')
         valor.classList.add('bar')
-        //valor.setAttribute('title', disciplina.sigla);
+        valor.setAttribute('title', disciplina.nome);
 
-        const tooltipText = document.createElement('title');
-        tooltipText.classList.add('tooltip-text');
-        tooltipText.textContent = disciplina.sigla;
-        tooltipText.setAttribute('title', disciplina.sigla);
+        // const tooltipText = document.createElement('title');
+        // tooltipText.classList.add('tooltip-text');
+        // tooltipText.textContent = disciplina.sigla;
+        // tooltipText.setAttribute('title', disciplina.sigla);
 
-        valor.append(tooltipText);
+        // valor.append(tooltipText);
 
-        valor.addEventListener('mouseover', function() {
-            tooltipText.style.display = 'inline-block';
-          });
+        // valor.addEventListener('mouseover', function() {
+        //     tooltipText.style.display = 'inline-block';
+        //   });
           
-          valor.addEventListener('mouseout', function() {
-            tooltipText.style.display = 'none';
-          });
+        //   valor.addEventListener('mouseout', function() {
+        //     tooltipText.style.display = 'none';
+        //   });
 
         setTimeout(() => {
             valor.style.height = disciplina.media + '%'
