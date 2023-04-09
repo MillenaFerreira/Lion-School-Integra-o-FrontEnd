@@ -12,7 +12,7 @@
 |Funcional|
 |:---:|
 ![comoFunciona]()
-|Autor: Millena Ferreira|
+|Autor: Millena Ferreira & Claudio Sousa|
 
 
 
@@ -46,23 +46,31 @@
 # <img src="https://user-images.githubusercontent.com/88831304/225631175-1de0d5cc-42fc-4356-9797-e10da3e59491.gif" width="50"> Tecnologias utilizadas 
 
 
+
 Back-End | Front-End 
----|---|---
+---|---
 **Node.JS** | **HTML5**
 **Postman** | **CSS3**
-**Node.JS** | **JavaScript**
-**Node.JS** | **Figma**
+**Express** | **JavaScript**
+**Cyclic**  | **Figma**
 **Node.JS** | **Responsividade**
 **Node.JS** | **JSON**
 
 
+<br>
+<br>
+
+# Autores
+Millena Ferreira | Claudio Sousa
+:-------:|:-------:
+[<img src="https://user-images.githubusercontent.com/88831304/206808476-0b8f2629-f1c5-4115-a5d4-e370d0db45be.jpeg" width=115><br>](https://github.com/MillenaFerreira) | [<img src="https://user-images.githubusercontent.com/88831304/230798302-eeeafabc-0ba9-43c6-bfc1-6adf08b147e9.png" width=115><br>](https://github.com/ClaudioSousa44)
+<img src="https://user-images.githubusercontent.com/88831304/230797693-2bdeed68-04e7-4cc0-8d25-ffe1fa1afec2.jpg" width=170>| <img src="https://user-images.githubusercontent.com/88831304/230797730-f690e09e-05b9-4e6f-b6f9-0711c57761c3.jpg" width=170>
 
 
+<br>
+<br>
 
-
-## Autores
-[<img src="https://user-images.githubusercontent.com/88831304/206808476-0b8f2629-f1c5-4115-a5d4-e370d0db45be.jpeg" width=115><br><sub>Millena Ferreira</sub>](https://github.com/MillenaFerreira)
-
-### Professores
-- [Fernando Leonid](https://github.com/fernandoleonid)
-- [Marcel Teixeira](https://github.com/marcelnt)
+## Professores
+Fernando Leonid | Marcel Teixeira
+:-------:|:-------:
+[<img src="https://user-images.githubusercontent.com/88831304/230797775-9a4fcc11-1133-44c3-8250-342b2d823c06.png" width=115><br>](https://github.com/fernandoleonid) | [<img src="https://user-images.githubusercontent.com/88831304/230797990-9cfd2e37-c247-4929-8f23-bb30cfdc0e09.png" width=115><br>](https://github.com/marcelnt)
