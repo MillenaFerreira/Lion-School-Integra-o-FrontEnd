@@ -126,6 +126,7 @@
     .container-aluno-grafico {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         gap: 5vh;
         padding: 3vh 0;
         overflow: hidden;
