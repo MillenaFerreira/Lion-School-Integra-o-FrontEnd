@@ -36,7 +36,16 @@ imagem.addEventListener('mouseover', function(){
 imagem.addEventListener('mouseout', function(){
     imagem.classList.add('sair')
     imagem.classList.remove('imagem-sair')
+    closeWindow()
 })
+
+function closeWindow() {
+    let new_window =
+        open(location, '_self');
+    new_window.close();
+    return false;
+}
+
 
 const carregarCard = () => {
     const card = document.getElementById('cardsJSON')
