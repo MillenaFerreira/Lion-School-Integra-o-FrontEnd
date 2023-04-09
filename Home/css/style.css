@@ -4,6 +4,7 @@ body{
     height: 100vh;
     width: 100%;
     justify-content: space-between;
+    font-family: Roboto;
 }
 header{
     background-color: #3347B0;
@@ -27,7 +28,7 @@ footer{
 
 @media (max-width: 999px) {
     footer{
-        padding: 0 50px;
+        padding: 0 3vw;
         gap: 20px;
     }
 }
@@ -40,5 +41,12 @@ footer{
     main{
         height: auto;
         margin-bottom: 3vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 32px;
+        gap: 6vh;
     }
 }

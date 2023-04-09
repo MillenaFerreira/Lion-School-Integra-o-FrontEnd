@@ -6,7 +6,7 @@
 }
 
 .escolha-curso {
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 3.5rem;
     padding: 0 6vw;
 }
@@ -17,28 +17,31 @@
 
 .cardsJSON {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .card {
     display: flex;
     flex-direction: row;
     background-color: #3347B0;
+    height: 200px;
     padding: 15px;
     justify-content: start;
     align-items: center;
-    gap: 4vw;
-    font-size: 2rem;
+    gap: 3vw;
+    font-size: 3.5rem;
     color: white;
     margin-top: 2vh;
+    font-weight: 500;
 }
 .img-card{
-    width: 75px;
-    height: 76px;
+    width: 100px;
+    height: 100px;
 }
 
-.cardsJSON :hover {
-    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+.cardsJSON :hover {  
+    box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
     background-color: #4a69ff;
+    transition: 1s;
 }
 
 @media (max-width: 1024px) {
@@ -57,11 +60,18 @@
         padding: 0 1.5vw;
         text-align: center;
     }
-    
-
     .cardsJSON {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .card{
+        height: auto;
+        gap: 2vw;
+        font-size: 2rem;
+    }
+    .img-card{
+        width: 75px;
+        height: 76px;
     }
 }
 
@@ -89,5 +99,8 @@
     .estudante {
         width: 160px;
         height: 270px;
+    }
+    .card{
+        margin-top: 4vh;
     }
 }
