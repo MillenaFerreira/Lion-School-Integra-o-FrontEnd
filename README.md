@@ -6,6 +6,7 @@
 ![image](https://user-images.githubusercontent.com/88831304/230803363-6e27d5e2-1ec0-44eb-be46-61365ddb574e.png)
 
 <br>
+<hr>
 <br>
 
 |100% Responsivo|
@@ -13,6 +14,7 @@
 ![site_responsivo](https://user-images.githubusercontent.com/88831304/230804127-74b8a2bb-03ad-49ec-8f65-a53cc7fea6f9.gif)
 
 <br>
+<hr>
 <br>
 
 |Funcional|
@@ -21,15 +23,23 @@
 |Autor: Millena Ferreira & Claudio Sousa|
 
 <br>
+<hr>
 <br>
 
-## [LINK DO PROJETO](https://millenaferreira.github.io/Lion-School-Integracao-FrontEnd/Home/html/index.html)
+# <img src="https://user-images.githubusercontent.com/88831304/230944766-5320d389-e271-4cdb-ae8c-66b586e4fc5f.png" width="40"> Link do Projeto
+No Github | No Firebase 
+:-------:|:-------:
+[<img src="https://user-images.githubusercontent.com/88831304/230946969-9f37a20c-abe5-4495-a7e2-4d894ef389e4.png" width=120>](https://lionschool-millenaeclaudio.web.app/) | [<img src="https://user-images.githubusercontent.com/88831304/230947147-96eab46f-e6ed-452c-956f-5906928fa752.png" width=150 height=55>](https://lionschool-millenaeclaudio.web.app/)
+
+
 
 <br>
 <br>
 
 # <img src="https://user-images.githubusercontent.com/88831304/230800378-7d0b0d07-ad3f-44c4-bb42-a9d6180d6c83.png" width="50">  Sobre 
-<!-- Site feito para ser um clone do WhatsApp Web, a partir desse site foi desenvolvido novas técnicas e vários aprendizados novos sobre todas as tecnologias utilizadas, além disso o site conta com total responsividade onde até mesmo o proprio WhatsApp não é responsivo trazendo assim uma otima experiência para o usuário. -->
+Site feito para ser uma atividade de Integração das materias **Back-End** e **Front-End**,
+cada aluno ficou responsavel por uma parte do projeto e tambem responsavel por ajudar o companheiro em quando ele tivesse alguma duvida ou desentendimento da materia.
+Esse site tem o intuito de ser uma escola onde cada aluno poderá ver sua suas notas e até mesmos os professsores para conseguir ver quem concluiu em qual ano, se o aluno está finalizado ou cursando o curso que foi clicado e tambem acompanhar as notas de seus alunos.
 
 <br>
 <br>
