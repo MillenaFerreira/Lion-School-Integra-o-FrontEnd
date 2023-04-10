@@ -5,16 +5,23 @@
 |:---:|
 ![image](https://user-images.githubusercontent.com/88831304/230803363-6e27d5e2-1ec0-44eb-be46-61365ddb574e.png)
 
+<br>
+<br>
+
 |100% Responsivo|
 |:---:|
 ![site_responsivo](https://user-images.githubusercontent.com/88831304/230804127-74b8a2bb-03ad-49ec-8f65-a53cc7fea6f9.gif)
+
+<br>
+<br>
 
 |Funcional|
 |:---:|
 ![comoFunciona](https://user-images.githubusercontent.com/88831304/230804598-bcd40c5c-6cdb-45c0-a4c4-6ae07073fc60.gif)
 |Autor: Millena Ferreira & Claudio Sousa|
 
-
+<br>
+<br>
 
 ## [LINK DO PROJETO](https://millenaferreira.github.io/Lion-School-Integracao-FrontEnd/Home/html/index.html)
 
