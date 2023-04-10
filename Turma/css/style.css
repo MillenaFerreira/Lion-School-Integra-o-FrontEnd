@@ -1,20 +1,26 @@
-body{
-    display: flex;
+body {
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-rows: 96px 1fr 140px;
     height: auto;
     font-family: Roboto;
+    min-height: 100vh;
 }
-header{
+
+header {
     background-color: #3347B0;
     padding-left: 10vw;
     padding-right: 10vw;
 }
-main{
+
+main {
     height: 100%;
     width: auto;
 }
-footer{
+
+footer {
     display: flex;
     height: 140px;
     width: 100%;
@@ -25,24 +31,36 @@ footer{
 }
 
 @media (max-width: 999px) {
-    footer{
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer {
         padding: 0 3vw;
         gap: 20px;
     }
 }
 
 @media (max-width: 600px) {
-    header{
+    header {
         padding-left: 7vw;
         padding-right: 7vw;
     }
-    main{
+
+    main {
         height: auto;
     }
-    body{
+
+    body {
         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
         height: auto;
