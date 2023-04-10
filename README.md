@@ -3,15 +3,15 @@
 
 |Lion School|
 |:---:|
-![image]()
+![image](https://user-images.githubusercontent.com/88831304/230803363-6e27d5e2-1ec0-44eb-be46-61365ddb574e.png)
 
 |100% Responsivo|
 |:---:|
-![site_responsivo]()
+![site_responsivo](https://user-images.githubusercontent.com/88831304/230804127-74b8a2bb-03ad-49ec-8f65-a53cc7fea6f9.gif)
 
 |Funcional|
 |:---:|
-![comoFunciona]()
+![comoFunciona](https://user-images.githubusercontent.com/88831304/230804598-bcd40c5c-6cdb-45c0-a4c4-6ae07073fc60.gif)
 |Autor: Millena Ferreira & Claudio Sousa|
 
 
@@ -21,13 +21,13 @@
 <br>
 <br>
 
-# <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">  Sobre 
+# <img src="https://user-images.githubusercontent.com/88831304/230800378-7d0b0d07-ad3f-44c4-bb42-a9d6180d6c83.png" width="50">  Sobre 
 <!-- Site feito para ser um clone do WhatsApp Web, a partir desse site foi desenvolvido novas técnicas e vários aprendizados novos sobre todas as tecnologias utilizadas, além disso o site conta com total responsividade onde até mesmo o proprio WhatsApp não é responsivo trazendo assim uma otima experiência para o usuário. -->
 
 <br>
 <br>
 
-# <img src="https://user-images.githubusercontent.com/88831304/225632608-6c7bd2d2-df4b-4edf-9f9d-83426a0ed590.png" width="50"> Critérios de Avaliação
+# <img src="https://user-images.githubusercontent.com/88831304/230800679-fcbdc847-962a-469b-b1de-e1e112dbb235.png" width="40"> Critérios de Avaliação
 
 - [X] Criou layout conforme designer feito no Figma?
 - [X] Os botões dos cursos são dinâmicos?
@@ -48,13 +48,18 @@
 
 
 Back-End | Front-End 
----|---
-**Node.JS** | **HTML5**
-**Postman** | **CSS3**
-**Express** | **JavaScript**
-**Cyclic**  | **Figma**
-**Node.JS** | **Responsividade**
-**Node.JS** | **JSON**
+:-------:|:-------:
+<img src="https://user-images.githubusercontent.com/88831304/230802122-d13e33e1-5566-4315-acb9-3149625dcb1e.png" width=90> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width=50>
+[<img src="https://user-images.githubusercontent.com/88831304/230801779-d10f98a9-8065-44b4-bd41-003cf6b79bff.png" width=50>](https://app.getpostman.com/join-team?invite_code=790f93e32dfcf682b82b4e844f3bb826&target_code=b39150eaa42a2f549854201670891330) | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width=50>
+<img src="https://user-images.githubusercontent.com/88831304/230801945-cea94089-816e-4250-826d-2da66c6697cf.png" width=110 height=50> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" width=50>
+<img src="https://www.cyclic.sh/images/cyclic-logo.png" width=70>  | [<img src="https://camo.githubusercontent.com/cdd289ae72f33665800bc6a63936d5afa0454214d520945780894151112a055f/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6669676d612f6669676d612d6f726967696e616c2e737667" width=40>](https://www.figma.com/file/EmbxqTSiyt50mvFbSL3pWc/Projeto-Lion-School?node-id=0%3A1&t=HZ5MJNtAch4RNoNb-1) 
+<img src="https://user-images.githubusercontent.com/88831304/230801779-d10f98a9-8065-44b4-bd41-003cf6b79bff.png" width=50> | <img src="https://user-images.githubusercontent.com/88831304/230802272-2d8229af-a072-41a9-92d9-b24bb25a0d7b.png" width=70>
+<img src="https://user-images.githubusercontent.com/88831304/230801779-d10f98a9-8065-44b4-bd41-003cf6b79bff.png" width=50> | <img src="https://user-images.githubusercontent.com/88831304/230802387-f018c137-b26e-44ac-8a50-a6927e6d03c2.png" width=50>
+
+
+
+
+
 
 
 <br>
@@ -63,8 +68,8 @@ Back-End | Front-End
 # Autores
 Millena Ferreira | Claudio Sousa
 :-------:|:-------:
-[<img src="https://user-images.githubusercontent.com/88831304/206808476-0b8f2629-f1c5-4115-a5d4-e370d0db45be.jpeg" width=115><br>](https://github.com/MillenaFerreira) | [<img src="https://user-images.githubusercontent.com/88831304/230798302-eeeafabc-0ba9-43c6-bfc1-6adf08b147e9.png" width=115><br>](https://github.com/ClaudioSousa44)
-<img src="https://user-images.githubusercontent.com/88831304/230797693-2bdeed68-04e7-4cc0-8d25-ffe1fa1afec2.jpg" width=170>| <img src="https://user-images.githubusercontent.com/88831304/230797730-f690e09e-05b9-4e6f-b6f9-0711c57761c3.jpg" width=170>
+[<img src="https://user-images.githubusercontent.com/88831304/206808476-0b8f2629-f1c5-4115-a5d4-e370d0db45be.jpeg" width=115>](https://github.com/MillenaFerreira) | [<img src="https://user-images.githubusercontent.com/88831304/230798302-eeeafabc-0ba9-43c6-bfc1-6adf08b147e9.png" width=115>](https://github.com/ClaudioSousa44)
+<img src="https://user-images.githubusercontent.com/88831304/230797693-2bdeed68-04e7-4cc0-8d25-ffe1fa1afec2.jpg" width=170>| <img src="https://user-images.githubusercontent.com/88831304/230797730-f690e09e-05b9-4e6f-b6f9-0711c57761c3.jpg" width=180>
 
 
 <br>
@@ -73,4 +78,4 @@ Millena Ferreira | Claudio Sousa
 ## Professores
 Fernando Leonid | Marcel Teixeira
 :-------:|:-------:
-[<img src="https://user-images.githubusercontent.com/88831304/230797775-9a4fcc11-1133-44c3-8250-342b2d823c06.png" width=115><br>](https://github.com/fernandoleonid) | [<img src="https://user-images.githubusercontent.com/88831304/230797990-9cfd2e37-c247-4929-8f23-bb30cfdc0e09.png" width=115><br>](https://github.com/marcelnt)
+[<img src="https://user-images.githubusercontent.com/88831304/230797775-9a4fcc11-1133-44c3-8250-342b2d823c06.png" width=115>](https://github.com/fernandoleonid) | [<img src="https://user-images.githubusercontent.com/88831304/230797990-9cfd2e37-c247-4929-8f23-bb30cfdc0e09.png" width=115>](https://github.com/marcelnt)
